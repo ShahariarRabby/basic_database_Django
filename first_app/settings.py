@@ -25,7 +25,7 @@ SECRET_KEY = '6o$g80)9gwmf0kw@d=ucmjfx6doh1-7wy^7eg!(!#zii1-h8z5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['murmuring-wave-72087.herokuapp.com']
 
 
 # Application definition
