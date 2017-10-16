@@ -8,8 +8,30 @@
 </head>
 <body>
 <h1>Hello World</h1>
-{{ insert_here }}
+{#{{ insert_here }}#}
 
 <img src="{% static 'images/1.png' %}" alt="none">
+
+<div id="table">
+
+{% if webpage %}
+<table>
+    <thead>
+    <th>Site Name</th>
+    <th>Date access</th>
+    </thead>
+    {% for acc in webpage %}
+    <tr>
+        <td>{{ acc.name }}</td>
+        <td> {{ acc.date }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>No data</p>
+{% endif %}
+
+</div>
+
 </body>
 </html>
