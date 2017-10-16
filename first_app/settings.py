@@ -25,7 +25,7 @@ SECRET_KEY = '6o$g80)9gwmf0kw@d=ucmjfx6doh1-7wy^7eg!(!#zii1-h8z5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['murmuring-wave-72087.herokuapp.com']
+ALLOWED_HOSTS = ['murmuring-wave-72087.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'first_project',
 ]
 
 MIDDLEWARE = [
