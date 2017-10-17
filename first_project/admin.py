@@ -5,3 +5,4 @@ from first_project.models import *
 admin.site.register(AccessRecord)
 admin.site.register(Topic)
 admin.site.register(Webpage)
+admin.site.register(User)
